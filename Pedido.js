@@ -3,7 +3,12 @@
 app.Pedido = {
 
   init : function(){
-    items = [];
+
+    //if(JSON.parse(localStorage.getItem('Pedido')).length > 0){
+      items = JSON.parse(localStorage.getItem('Pedido'));
+      app.Carrito.dibujarPedido();
+    //}
+    //items = [];
   },
 
   agregar : function(item){
@@ -15,6 +20,8 @@ app.Pedido = {
       item.cantidad = 1;
       items.push(item); 
     }
+    localStorage.setItem('Pedido',JSON.stringify(items));
+    //console.log(localStorage);
     app.Carrito.dibujarPedido(); //Visualizo los items en el carrito
   },
 
@@ -27,6 +34,7 @@ app.Pedido = {
           items.splice(i, 1);  
         }
         app.Carrito.dibujarPedido(); //Visualizo los items en el carrito
+        localStorage.setItem('Pedido',JSON.stringify(items));
         return;
       }
     }
