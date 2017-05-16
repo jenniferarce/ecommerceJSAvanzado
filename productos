@@ -1,0 +1,325 @@
+{
+  "data":
+  [
+      {
+          "id": 1,
+          "titulo": "ensalada caesar",
+          "descripcion": "ensalada completa",
+          "imagen": "http://lorempixel.com/200/200/food/1",
+          "precio": 50,
+          "oferta": false
+      },
+      {
+          "id": 2,
+          "titulo": "churrasquito",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 70,
+          "oferta": false
+      },
+      {
+          "id": 3,
+          "titulo": "pizza",
+          "descripcion": "cortada en fajitas",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 4,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 5,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 55,
+          "oferta": true
+      },
+      {
+          "id": 6,
+          "titulo": "vegetales grillados",
+          "descripcion": "berenjena y vegetales grillados",
+          "imagen": "http://lorempixel.com/200/200/food/6",
+          "precio": 60,
+          "oferta": true
+      },
+      {
+          "id": 7,
+          "titulo": "churrasquito",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 70,
+          "oferta": false
+      },
+      {
+          "id": 8,
+          "titulo": "pizza",
+          "descripcion": "cortada en fajitas",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 9,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 10,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 55,
+          "oferta": true
+      },
+      {
+          "id": 11,
+          "titulo": "vegetales grillados",
+          "descripcion": "berenjena y vegetales grillados",
+          "imagen": "http://lorempixel.com/200/200/food/6",
+          "precio": 60,
+          "oferta": true
+      },
+      {
+          "id": 12,
+          "titulo": "churrasquito",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 70,
+          "oferta": false
+      },
+      {
+          "id": 13,
+          "titulo": "pizza",
+          "descripcion": "cortada en fajitas",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 14,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 15,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 55,
+          "oferta": true
+      },
+      {
+          "id": 16,
+          "titulo": "vegetales grillados",
+          "descripcion": "berenjena y vegetales grillados",
+          "imagen": "http://lorempixel.com/200/200/food/6",
+          "precio": 60,
+          "oferta": true
+      },
+      {
+          "id": 17,
+          "titulo": "churrasquito",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 70,
+          "oferta": false
+      },
+      {
+          "id": 18,
+          "titulo": "pizza",
+          "descripcion": "cortada en fajitas",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 19,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 20,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 55,
+          "oferta": true
+      },
+      {
+          "id": 21,
+          "titulo": "vegetales grillados",
+          "descripcion": "berenjena y vegetales grillados",
+          "imagen": "http://lorempixel.com/200/200/food/6",
+          "precio": 60,
+          "oferta": true
+      },
+      {
+          "id": 22,
+          "titulo": "churrasquito",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 70,
+          "oferta": false
+      },
+      {
+          "id": 23,
+          "titulo": "pizza",
+          "descripcion": "cortada en fajitas",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 24,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 60,
+          "oferta": false
+      },
+      {
+          "id": 25,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 55,
+          "oferta": true
+      },
+      {
+          "id": 26,
+          "titulo": "vegetales grillados",
+          "descripcion": "berenjena y vegetales grillados",
+          "imagen": "http://lorempixel.com/200/200/food/6",
+          "precio": 60,
+          "oferta": true
+      },
+      {
+          "id": 27,
+          "titulo": "churrasquito dudoso",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 7,
+          "oferta": false
+      },
+      {
+          "id": 28,
+          "titulo": "pizza re cheta",
+          "descripcion": "cortada en fajitas de oro",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 6022,
+          "oferta": false
+      },
+      {
+          "id": 29,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 650,
+          "oferta": false
+      },
+      {
+          "id": 30,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 555,
+          "oferta": true
+      },
+      {
+          "id": 31,
+          "titulo": "vegetales grillados",
+          "descripcion": "berenjena y vegetales grillados",
+          "imagen": "http://lorempixel.com/200/200/food/6",
+          "precio": 6014,
+          "oferta": true
+      },
+      {
+          "id": 32,
+          "titulo": "churrasquito",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 740,
+          "oferta": false
+      },
+      {
+          "id": 33,
+          "titulo": "pizza",
+          "descripcion": "cortada en fajitas",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 610,
+          "oferta": false
+      },
+      {
+          "id": 34,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 360,
+          "oferta": false
+      },
+      {
+          "id": 35,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 525,
+          "oferta": true
+      },
+      {
+          "id": 36,
+          "titulo": "vegetales grillados",
+          "descripcion": "berenjena y vegetales grillados",
+          "imagen": "http://lorempixel.com/200/200/food/6",
+          "precio": 30,
+          "oferta": true
+      },
+      {
+          "id": 37,
+          "titulo": "churrasquito",
+          "descripcion": "churrasco trozado",
+          "imagen": "http://lorempixel.com/200/200/food/2",
+          "precio": 720,
+          "oferta": false
+      },
+      {
+          "id": 38,
+          "titulo": "pizza",
+          "descripcion": "cortada en fajitas",
+          "imagen": "http://lorempixel.com/200/200/food/3",
+          "precio": 160,
+          "oferta": false
+      },
+      {
+          "id": 39,
+          "titulo": "medallones",
+          "descripcion": "medallones de merluza con guarnición",
+          "imagen": "http://lorempixel.com/200/200/food/4",
+          "precio": 602,
+          "oferta": false
+      },
+      {
+          "id": 40,
+          "titulo": "ensalada vegetal",
+          "descripcion": "solo vegetales",
+          "imagen": "http://lorempixel.com/200/200/food/5",
+          "precio": 551,
+          "oferta": true
+      }
+  ]
+}

@@ -1,0 +1,68 @@
+/* Styles go here */
+
+body {
+  margin: 1em;
+}
+
+.loading-js .catalog,
+.loading-js .cart
+{
+  display: none;
+}
+
+.cart {
+  background: darkcyan;
+  font-size: 80%;
+  padding: 1em;
+  position: fixed;
+  right: 0px;
+  top: 50px;
+  transition: all .5s;
+  width: 184px;
+}
+.cart--hidden {
+  right: -210px;
+}
+.cart__button {
+  background: orange;
+  padding: 1em;
+  position: relative;
+  left: -50px;
+  top: -1em;
+}
+.cart h1 {
+  font-size: 140%;
+  margin: 0px;
+}
+.cart .total {
+  background: rgba(255,255,255,.7);
+  border-bottom: 2px solid rgba(0,0,0,.7);
+  padding: .5em;
+}
+.cart__list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.cart__list li {
+  background: rgba(255,255,255,.5);
+  padding: .5em;
+  margin-bottom: .25em;
+}
+.cart__list .cart__item__remove {
+  float: right;
+}
+
+/* catalog */
+.catalog__item {
+  background: rgba(255,255,0,.2);
+  margin-bottom: .5em;
+}
+.catalog__item img {
+  width: 29%;
+}
+.catalog__item__data {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}

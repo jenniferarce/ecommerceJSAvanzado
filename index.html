@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link data-require="fontawesome@*" data-semver="4.5.0" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css" />
+    <link data-require="normalize@*" data-semver="3.0.1" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" />
+    <!--
+    Dependencias de estilos de plugins
+    -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Productos</h1>
+    </header>
+    
+    <section class="catalog"></section>
+    
+    <aside class="cart cart--hidden">
+      <i class="cart__button fa fa-shopping-cart"></i>
+      <h1>Items</h1>
+      <ul class="cart__list"></ul>
+      <p class="total">
+        Total ar$        <strong class="cart__total">---</strong>
+      </p>
+      <button>comprar</button>
+    </aside>
+    <script id="catalog__item__template" type="text/html">
+      <article class="catalog__item">
+        <img src="http://lorempixel.com/200/200/sports/" />
+        <div class="catalog__item__data">
+          <h1 class="title">Producto</h1>
+          <p class="description">Descripcion</p>
+          <p class="price">
+            ar$<span>999</span>
+          </p>
+          <button class="catalog__agregar">agregar</button>
+        </div>
+      </article>
+    </script>
+    <script id="cart__item__template" type="text/html">
+      <li class="cart__item">
+        <span class="cart__item__nombre">Nombre</span>
+        x<span class="cart__item__cantidad">cantidad</span> 
+        ar$<span class="cart__item__precio">---</span>
+        <i class="cart__item__remove fa fa-remove"></i>
+      </li>
+    </script>
+    
+    <!-- primero jQuery  -->
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- luego mis archivos de implementación  -->
+    <script src="proyecto.js"></script>
+    <script src="Listado.js"></script>
+    <script src="Carrito.js"></script>
+    <script src="Pedido.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
